@@ -25,12 +25,6 @@ body {
     border-bottom: 6px solid #e9edc9;
     border-radius: 20px;
     border-top: 6px solid #e9edc9;
-        
-    /*
-    Challenge:
-    Find a color palette you like on Coolors.co
-    and use it in your business card.
-     */
 }
 
 .border-blue {
@@ -40,6 +34,7 @@ body {
 .card:hover {
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 600px;
 }
 
 .avatar:hover {
@@ -60,6 +55,21 @@ body {
     height: 50px; /* Adjust the button height */
     border-radius: 25px; /* Make it round */
 }
+
+.back-card {
+    display: none;
+}
+
+.card:hover .back-card {
+    display: block; /* Reveal the additional information on hover */
+}
+
+
+
+
+
+
+
 /*
 Stretch goals:
 Find other ways you can personalize 
